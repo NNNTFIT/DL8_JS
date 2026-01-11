@@ -6,12 +6,15 @@
 body{
     width: 100%;
     height: fit-content;
-    overflow: hidden;
+    overflow-y: auto;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: black;
+}
+.menu-open{
+    overflow: hidden;
 }
 .container{
     width: 100%;
