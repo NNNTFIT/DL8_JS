@@ -21,7 +21,7 @@ body{
     background-color: white;
     padding-top: 100px;
     transform-origin: top left;
-    transition: all 1s ease;
+    transition: all 0.5s linear;
     display: flex;
     justify-content: center;
 }
@@ -52,7 +52,7 @@ body{
     left: -100px;
     z-index: 99;
     transform: rotate(-135deg);
-    transition: all 1s ease;
+    transition: all 0.4s linear;
 }
 .list-active{
     transform: rotate(-315deg);
@@ -74,7 +74,7 @@ nav{
     top: 70vh;
     left: -200px;
     background-color: transparent;
-    transition: all 1s ease;
+    transition: all 0.6s linear;
 }
 .nav-active{
     left: 40px;
